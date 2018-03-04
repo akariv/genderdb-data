@@ -1,0 +1,35 @@
+.cat1 {
+    stroke: #1BE7FF;
+}
+
+.cat2 {
+    stroke: #6EEB83;
+}
+
+.cat3 {
+    stroke: #E4FF1A;
+}
+
+.total {
+    stroke: black;
+}
+
+path {
+    fill: none;
+    stroke-width: 1px;
+}
+
+.avg path {
+    stroke-width: 3px;    
+}
+
+.total path {
+    stroke-width: 7px;    
+}
+
+text.label {
+    stroke: none;
+    fill: black;
+    alignment-baseline: middle;
+    font-size: 12px;
+}
