@@ -118,7 +118,7 @@ d3.json('filtered.json', function(error, data) {
             .remove();
     }
 
-    update(selected_category, series);
+    update(total, [], false);
 
     var level = 2;
     d3.select('#series')
